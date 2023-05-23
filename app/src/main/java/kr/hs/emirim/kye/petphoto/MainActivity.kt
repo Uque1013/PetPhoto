@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        super.onCreate(savedInstanceState) 
         setContentView(R.layout.activity_main)
         checkStart = findViewById(R.id.check_start)
         rg = findViewById(R.id.rg)
